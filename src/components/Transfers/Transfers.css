@@ -1,0 +1,42 @@
+.transfers-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+.transfer-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.transfer-item:last-child {
+    border-bottom: none;
+}
+
+.transfer-detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.value {
+    color: #333;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.no-transfers {
+    text-align: center;
+    color: #777;
+}

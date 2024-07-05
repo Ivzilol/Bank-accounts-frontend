@@ -1,0 +1,48 @@
+.accounts-container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.accounts-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.accounts-list {
+    list-style: none;
+    padding: 0;
+}
+
+.account-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.account-item span {
+    display: block;
+}
+
+.account-name {
+    font-weight: bold;
+}
+
+.account-iban {
+    color: #555;
+}
+
+.no-accounts {
+    text-align: center;
+    color: #777;
+    font-style: italic;
+}
